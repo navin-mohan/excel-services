@@ -219,6 +219,8 @@
     }
 
    @media (max-width: 970px){
+
+
        header{
            padding: 0 20px;
            position: fixed;
@@ -230,6 +232,8 @@
            h1#brand{
                line-height: 30px;
                margin-left: 20px;
+               font-size: 20px;
+               color: #000;
            }
        }
 

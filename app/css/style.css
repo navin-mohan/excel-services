@@ -192,7 +192,9 @@ div#particle-js {
     transition: all 0.5s; }
     header h1#brand {
       line-height: 30px;
-      margin-left: 20px; }
+      margin-left: 20px;
+      font-size: 20px;
+      color: #000; }
   nav.show-menu {
     right: 0; }
   header.show-menu,
