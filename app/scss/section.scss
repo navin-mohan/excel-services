@@ -1,17 +1,21 @@
-section{
-    position: relative;
 
-    div.max-width{
+ div.max-width{
         max-width: 1600px;
         margin: 0 auto;
         width: 100%;
     }
 
-    div.max-width-smaller{
+div.max-width-smaller{
         max-width: 1200px;
         margin: 0 auto;
         width: 100%;
     }
+
+
+section{
+    position: relative;
+
+    
 
     .section-title{
         position: absolute;
@@ -144,10 +148,12 @@ section{
 section#services{
     margin: -200px 20px 0;
     margin-bottom: 70px;
+    padding-top: 100px;
 }
 
 section#work{
     background-color: #F2F3F6;
+    padding-top: 30px;
 }
 
 .hide-mobile{
@@ -160,6 +166,20 @@ section#work{
 
 .what-we-do{
     margin-bottom: 30px;
+    h3{
+        font-family: 'Raleway' , sans-serif;
+        font-weight: 600;
+        font-size: 27px;
+        line-height: 1.4;
+    }
+
+    p{
+        font-family: 'Open Sans' ,sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.4;
+        color: #4E5067;
+    }
 }
 
 @media (min-width: 1200px){

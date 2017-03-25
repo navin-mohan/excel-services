@@ -31,6 +31,19 @@
 
         h1#brand{
             line-height: 30px;
+            font-size: 20px;
+            color: #000;
+            margin-top: 13px;
+            letter-spacing: 2px;
+            a{
+                text-decoration: none;
+                font: inherit;
+                color: inherit;
+            }
+
+            a:hover{
+                text-decoration: none;
+            }
         }
         a.nav-link{
             line-height: 60px;
@@ -39,10 +52,13 @@
 
    h1#brand{
        float:left;
-       font-size: 14px;
+       font-size: 38px;
+       color:#2696c2;
+       font-family: 'Cabin', sans-serif;
        font-weight: 900;
        line-height: 100px;
        transition: all 0.3s;
+       letter-spacing: 1px;
    }
 
 
@@ -115,7 +131,7 @@
         width:100%;
         overflow: hidden;
         z-index: 2;
-        margin: 0 0 300px;
+        margin: 0 0 420px;
         background-color:#fff;
         left:0; 
         transition: all 0.5s;
@@ -141,13 +157,17 @@
             margin-bottom: 200px;
 
             h2{
-                font-size: 60px;
+                font-size: 55px;
+                font-family: 'Raleway' , sans-serif;
+                color: #273444;
+                font-weight: 600;
             }
             p{
-                font-size: 24px;
-                font-weight: 100;
-                line-height: 35px;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 1.7;
                 text-align: left;
+                color:#4E5067;
             }
         }
 
@@ -193,17 +213,6 @@
         overflow: hidden;
     }
 
-    footer{
-        background-color: #444;
-        color: #fff;
-        height: 300px;
-        position: fixed;
-        bottom:0;
-        left:0;
-        z-index: 1;
-        width:100%;
-
-    }
 
     .hide-mobile{
         display: initial;

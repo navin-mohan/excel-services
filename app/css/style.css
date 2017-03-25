@@ -1,3 +1,36 @@
+.turquoise {
+  color: #1abc9c; }
+
+.emerald {
+  color: #2ecc71; }
+
+.peter-river {
+  color: #3498db; }
+
+.amthyst {
+  color: #9b59b6; }
+
+.wet-asphalt {
+  color: #34495e; }
+
+.green-sea {
+  color: #16a085; }
+
+.nehpritis {
+  color: #27ae60; }
+
+.sunflower {
+  color: #f1c40f; }
+
+.carrot {
+  color: #e67e22; }
+
+.pumpkin {
+  color: #d35400; }
+
+.alizarin {
+  color: #e74c3c; }
+
 body.no-scroll {
   overflow: hidden; }
 
@@ -23,16 +56,29 @@ header.sticky {
   height: 60px;
   width: 100%; }
   header.sticky h1#brand {
-    line-height: 30px; }
+    line-height: 30px;
+    font-size: 20px;
+    color: #000;
+    margin-top: 13px;
+    letter-spacing: 2px; }
+    header.sticky h1#brand a {
+      text-decoration: none;
+      font: inherit;
+      color: inherit; }
+    header.sticky h1#brand a:hover {
+      text-decoration: none; }
   header.sticky a.nav-link {
     line-height: 60px; }
 
 h1#brand {
   float: left;
-  font-size: 14px;
+  font-size: 38px;
+  color: #2696c2;
+  font-family: 'Cabin', sans-serif;
   font-weight: 900;
   line-height: 100px;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+  letter-spacing: 1px; }
 
 @media (min-width: 970px) {
   div.menu-btn {
@@ -83,7 +129,7 @@ div.wrapper {
   width: 100%;
   overflow: hidden;
   z-index: 2;
-  margin: 0 0 300px;
+  margin: 0 0 420px;
   background-color: #fff;
   left: 0;
   transition: all 0.5s; }
@@ -99,12 +145,16 @@ div.wrapper {
     padding: 0 0.5%;
     margin-bottom: 200px; }
     div.wrapper div.cover-text h2 {
-      font-size: 60px; }
+      font-size: 55px;
+      font-family: 'Raleway' , sans-serif;
+      color: #273444;
+      font-weight: 600; }
     div.wrapper div.cover-text p {
-      font-size: 24px;
-      font-weight: 100;
-      line-height: 35px;
-      text-align: left; }
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 1.7;
+      text-align: left;
+      color: #4E5067; }
   div.wrapper div.cover-text-container {
     padding: 230px 0 550px; }
   @media (max-width: 1400px) {
@@ -128,16 +178,6 @@ div#particle-js {
   height: 100%;
   width: 100%;
   overflow: hidden; }
-
-footer {
-  background-color: #444;
-  color: #fff;
-  height: 300px;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%; }
 
 .hide-mobile {
   display: initial; }
