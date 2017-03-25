@@ -1,0 +1,86 @@
+section {
+  position: relative; }
+  section div.max-width {
+    max-width: 1600px;
+    margin: 0 auto;
+    width: 100%; }
+  section div.max-width-smaller {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%; }
+  section .section-title {
+    position: absolute;
+    text-align: center;
+    z-index: 10;
+    top: -30px;
+    left: 0; }
+    section .section-title p.section-label {
+      margin: 0;
+      font-weight: 900;
+      text-transform: uppercase;
+      color: #369EFB; }
+  section .fixed {
+    position: fixed; }
+  section .fill-blue {
+    background: #00f; }
+  section .card {
+    width: 100%;
+    height: 525px;
+    margin-bottom: 30px;
+    border-radius: 5px; }
+    section .card .card-img {
+      position: relative;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 385px;
+      overflow: hidden;
+      width: 100%;
+      background-image: url("https://colorlib.com/wp/wp-content/uploads/sites/2/meris-flat-wordpress-theme.jpg"); }
+    section .card .card-desc {
+      background-color: #fff;
+      position: relative;
+      bottom: 140px;
+      height: 140px;
+      overflow: hidden;
+      width: 100%; }
+
+.section-container {
+  margin: 20px;
+  margin-top: 70px; }
+
+section#services {
+  margin: -200px 20px 0;
+  margin-bottom: 70px; }
+
+section#work {
+  background-color: #F2F3F6; }
+
+.hide-mobile {
+  display: none; }
+
+.what-we-do-icon {
+  font-size: 70px; }
+
+.what-we-do {
+  margin-bottom: 30px; }
+
+@media (min-width: 1200px) {
+  section p.section-label::before {
+    border: 1px solid #369EFB;
+    position: absolute;
+    left: -11px;
+    top: -16px;
+    display: block;
+    content: "";
+    height: 70px;
+    width: 70px;
+    border-radius: 10px;
+    transform: rotate(45deg); }
+  section .section-title {
+    top: 13px;
+    left: 7.5%; }
+  section .section-title-right {
+    float: right; }
+  .hide-mobile {
+    display: initial; } }
