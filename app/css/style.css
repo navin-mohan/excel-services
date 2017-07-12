@@ -129,7 +129,7 @@ div.wrapper {
   width: 100%;
   overflow: hidden;
   z-index: 2;
-  margin: 0 0 420px;
+  margin: 0 0 300px;
   background-color: #fff;
   left: 0;
   transition: all 0.5s; }
@@ -156,7 +156,7 @@ div.wrapper {
       text-align: left;
       color: #4E5067; }
   div.wrapper div.cover-text-container {
-    padding: 230px 0 550px; }
+    padding: 230px 0 200px; }
   @media (max-width: 1400px) {
     div.wrapper div.cover-figure img {
       height: 27em; } }

@@ -134,7 +134,13 @@ section{
             p.desc{
                 display: block;
             }
+            div.team-avatars{
+                visibility: visible !important;
+                opacity: 1;
+            }
         }
+
+        
     }
     
 }   
@@ -154,6 +160,11 @@ section#services{
 section#work{
     background-color: #F2F3F6;
     padding-top: 30px;
+}
+
+section#contact-us{
+    padding-top: 40px;
+    padding-left: 30px;
 }
 
 .hide-mobile{
@@ -179,6 +190,57 @@ section#work{
         font-weight: 400;
         line-height: 1.4;
         color: #4E5067;
+    }
+}
+
+section#contact-us{
+    img.contact-img{
+        margin: 0 auto;
+        border-radius: 7px;
+    }
+
+    a.leave-message-btn{
+        background-color: #2ecc71;
+        border-color: #27ae60;
+        border-radius: 40px;
+    }
+}
+
+section#work{
+    .team-avatars {
+        visibility: hidden;
+        transition: visibility 0s, opacity 0.5s linear;
+        img{
+            height: 50px;
+            width: 50px;
+            border-radius: 50%;
+        }
+
+        ul{
+            list-style: none;
+            padding-left: 27px;
+            margin-top: 5px;
+            position: relative;
+            top: -21px;
+            left: 20px;
+
+            li{
+                display: inline-block;
+            }
+        }
+
+        span.team-text{
+            color: #aaa;
+            text-transform: uppercase;
+            position: relative;
+            display: block;
+            transform: rotate(-90deg);
+            width: 82px;
+            top: -1px;
+            left: -5px;
+            margin: 0;
+        }
+
     }
 }
 

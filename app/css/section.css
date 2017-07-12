@@ -86,6 +86,9 @@ section {
     height: 240px; }
     section .card:hover .card-desc p.desc {
       display: block; }
+    section .card:hover .card-desc div.team-avatars {
+      visibility: visible !important;
+      opacity: 1; }
 
 .section-container {
   margin: 20px;
@@ -99,6 +102,10 @@ section#services {
 section#work {
   background-color: #F2F3F6;
   padding-top: 30px; }
+
+section#contact-us {
+  padding-top: 40px;
+  padding-left: 30px; }
 
 .hide-mobile {
   display: none; }
@@ -119,6 +126,42 @@ section#work {
     font-weight: 400;
     line-height: 1.4;
     color: #4E5067; }
+
+section#contact-us img.contact-img {
+  margin: 0 auto;
+  border-radius: 7px; }
+
+section#contact-us a.leave-message-btn {
+  background-color: #2ecc71;
+  border-color: #27ae60;
+  border-radius: 40px; }
+
+section#work .team-avatars {
+  visibility: hidden;
+  transition: visibility 0s, opacity 0.5s linear; }
+  section#work .team-avatars img {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%; }
+  section#work .team-avatars ul {
+    list-style: none;
+    padding-left: 27px;
+    margin-top: 5px;
+    position: relative;
+    top: -21px;
+    left: 20px; }
+    section#work .team-avatars ul li {
+      display: inline-block; }
+  section#work .team-avatars span.team-text {
+    color: #aaa;
+    text-transform: uppercase;
+    position: relative;
+    display: block;
+    transform: rotate(-90deg);
+    width: 82px;
+    top: -1px;
+    left: -5px;
+    margin: 0; }
 
 @media (min-width: 1200px) {
   section p.section-label::before {
