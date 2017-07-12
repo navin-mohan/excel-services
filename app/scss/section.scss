@@ -283,5 +283,40 @@ section#work{
             display: initial;
         }
 
+
+}
+
+@media (max-width:765px){
+    section#work .card{
+        .card-desc{
+            bottom: 100px;
+            height: 250px;
+
+            p.desc{
+                display: block;
+            }
+            div.team-avatars{
+                visibility: visible !important;
+                opacity: 1;
+            }
+        }
+
+    
+    }
+}
+
+@media (max-width:418px){
+    section#work .card{
+        .card-desc{
+            height: 180px;
+            
+
+            p.desc{
+                display: none;
+            }
+        }
+
+    
+    }
 }
 

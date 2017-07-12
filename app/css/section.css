@@ -190,3 +190,19 @@ section#work .team-avatars {
       z-index: -2; }
   .hide-mobile {
     display: initial; } }
+
+@media (max-width: 765px) {
+  section#work .card .card-desc {
+    bottom: 100px;
+    height: 250px; }
+    section#work .card .card-desc p.desc {
+      display: block; }
+    section#work .card .card-desc div.team-avatars {
+      visibility: visible !important;
+      opacity: 1; } }
+
+@media (max-width: 418px) {
+  section#work .card .card-desc {
+    height: 180px; }
+    section#work .card .card-desc p.desc {
+      display: none; } }
