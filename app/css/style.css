@@ -67,6 +67,8 @@ header.sticky {
       color: inherit; }
     header.sticky h1#brand a:hover {
       text-decoration: none; }
+    header.sticky h1#brand img.services-logo {
+      height: 35px; }
   header.sticky a.nav-link {
     line-height: 60px; }
 
@@ -79,6 +81,12 @@ h1#brand {
   line-height: 100px;
   transition: all 0.3s;
   letter-spacing: 1px; }
+  h1#brand img.services-logo {
+    height: 120px;
+    transition: height 0.5s,width 0.5s linear; }
+  h1#brand span.services-logo-text {
+    position: relative;
+    top: 3px; }
 
 @media (min-width: 970px) {
   div.menu-btn {
@@ -195,6 +203,10 @@ div#particle-js {
       margin-left: 20px;
       font-size: 20px;
       color: #000; }
+      header h1#brand img.services-logo {
+        height: 75px; }
+  header.sticky h1#brand span.services-logo-text {
+    visibility: hidden; }
   nav.show-menu {
     right: 0; }
   header.show-menu,

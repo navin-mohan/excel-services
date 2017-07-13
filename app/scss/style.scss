@@ -44,6 +44,9 @@
             a:hover{
                 text-decoration: none;
             }
+            img.services-logo{
+                height: 35px;
+            }
         }
         a.nav-link{
             line-height: 60px;
@@ -59,6 +62,16 @@
        line-height: 100px;
        transition: all 0.3s;
        letter-spacing: 1px;
+       
+       img.services-logo{
+            height: 120px;
+            transition: height 0.5s,width 0.5s linear;       
+       }
+       
+       span.services-logo-text{
+            position: relative;
+            top: 3px;
+       }
    }
 
 
@@ -234,6 +247,19 @@
                margin-left: 20px;
                font-size: 20px;
                color: #000;
+
+                img.services-logo{
+                    height: 75px;
+                }
+               
+           }
+       }
+
+       header.sticky{
+           h1#brand{
+               span.services-logo-text{
+                    visibility: hidden;
+                }
            }
        }
 
