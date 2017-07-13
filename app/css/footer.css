@@ -39,7 +39,19 @@ footer {
       footer ul li i {
         font-size: 20px !important;
         letter-spacing: 4px; }
+  footer .logos img {
+    float: left; }
+  footer .logos img.mec-logo {
+    height: 84px; }
+  footer .logos img.excel-logo {
+    height: 100px;
+    position: relative;
+    top: -4px; }
 
 @media (max-width: 1200px) {
   footer {
     padding-left: 40px; } }
+
+@media (max-width: 970px) {
+  footer {
+    height: 560px; } }

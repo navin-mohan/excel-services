@@ -52,6 +52,24 @@ footer{
             }
         }
     }
+
+    .logos{
+
+        img{
+            float: left;            
+        }
+        
+        img.mec-logo{
+            height: 84px;
+            // margin: 0 auto;
+
+        }
+        img.excel-logo{
+            height: 100px;
+            position: relative;
+            top: -4px;
+        }
+    }
 }
 
 @media (max-width: 1200px){
@@ -59,4 +77,10 @@ footer{
     footer{
         padding-left: 40px;
     }        
+}
+
+@media(max-width: 970px){
+    footer{
+        height: 560px;
+    }
 }

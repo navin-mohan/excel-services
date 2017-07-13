@@ -86,7 +86,8 @@ h1#brand {
     transition: height 0.5s,width 0.5s linear; }
   h1#brand span.services-logo-text {
     position: relative;
-    top: 3px; }
+    top: 3px;
+    color: #000; }
 
 @media (min-width: 970px) {
   div.menu-btn {
@@ -237,8 +238,10 @@ div#particle-js {
         line-height: 60px; }
       nav ul a.nav-link {
         line-height: 75px; }
-  div.wrapper div.cover-figure {
-    display: none; }
+  div.wrapper {
+    margin-bottom: 560px; }
+    div.wrapper div.cover-figure {
+      display: none; }
   div.wrapper div.cover-text {
     margin-right: 10px; }
     div.wrapper div.cover-text h2 {
