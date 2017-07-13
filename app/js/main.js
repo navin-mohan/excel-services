@@ -1,11 +1,13 @@
 
 $(document).ready(()=>{
-    $('.menu-btn').click(()=>{
+    var toggleMenu = () => {
         $('header > nav').toggleClass('show-menu');
         $('header').toggleClass('show-menu');
         $('body').toggleClass('no-scroll');
         $('div.wrapper').toggleClass('show-menu');
-    });
+    };
+    $('.menu-btn').click(toggleMenu);
+    $('.menu-btn-link').click(toggleMenu);
 
     particlesJS(
         'particle-js',
