@@ -1,0 +1,56 @@
+<section id="work">
+    <div class="row max-width-smaller">
+        <div class="section-container">
+            <div class="col-sm-12 col-md-12 col-lg-2 section-title-right">
+            <div class="section-title">
+                <p class="section-label">
+                    Our
+                    <br class="hide-mobile">
+                    Work
+                </p>
+            </div>
+        </div>
+        {% for work in works %}
+            <div class="col-sm-6 col-md-6 col-lg-5 ">
+                <div class="card">
+                    <div class="card-img"></div>
+                    <div class="card-desc">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <p class="labels">
+                                    {% for tag in work.tags %}
+                                        <span>{{tag}}</span>
+                                    {% endfor %}
+                                </p>
+                            </div>
+                            <div class="col-xs-12">
+                                <h3 class="work-title">
+                                    {{work.title}}
+                                </h3>
+                                <i class="arrow-right arrow" aria-hidden="true"></i>
+                            </div>
+                            <div class="col-xs-12">
+                                <p class="desc">
+                                    {{work.description}}
+                                </p>
+                                
+                            </div>
+                            <div class="col-xs-12 team-avatars">
+                                <span class="team-text">Team</span>
+                                <ul>
+                                    {% for teammember in work.teammembers %}
+                                        <li>
+                                            <a href="{{teammember.url}}"><img src="{{teammember.imgsrc}}" alt="{{teammember.name}}"></a>                                                
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+        </div>
+    </div>
+
+</section>

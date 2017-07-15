@@ -1,0 +1,109 @@
+{
+    "siteinfo":{
+        "title": "Excel Services",
+        "tagline": "This is what we do.",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est officia voluptas, non quidem consequuntur",
+        "image": {
+            "href": "",
+            "alt": "some image"
+        }
+    },
+    "aboutus":{
+        "title": "A heading",
+        "description": "Excel Services is a new venture by the students of Govt. Model Engineering College, Kochi, with the aim of bolstering hands on experience and corporate exposure. Started as a part of Excel 2017, the annual national-level techno managerial fest of the college, Excel Services will use the combined brainpower and creativity of 400+ students across all years of study and provide a complete package for companies to solve any creative or technical roadblocks being faced in their ongoing projects. Companies, with a project on hand (preferably technical), can approach Excel Services at any point of time in the year. After evaluating the skill set requirement for its successful completion, the project will be handed over to a team with those specific skills. Students work on it alongside academics and execute it within a specified time, ensuring quality and timely completion."
+    },
+    "services":[
+        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":false },
+        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":false },
+        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":true },
+        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":false }
+    ],
+    "works":[
+        {
+            "tags":[
+                "UI/UX", "Android", "material design"
+            ],
+            "title": "Awesome App",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+            "teammembers":[
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
+            ],
+            "imgsrc":"",
+            "url":""
+        },
+        {
+            "tags":[
+                "UI/UX", "Android", "material design"
+            ],
+            "title": "Awesome App",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+            "teammembers":[
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
+            ],
+            "imgsrc":"",
+            "url":""
+        },
+        {
+            "tags":[
+                "UI/UX", "Android", "material design"
+            ],
+            "title": "Awesome App",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+            "teammembers":[
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
+            ],
+            "imgsrc":"",
+            "url":""
+        },
+        {
+            "tags":[
+                "UI/UX", "Android", "material design"
+            ],
+            "title": "Awesome App",
+            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+            "teammembers":[
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
+                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
+            ],
+            "imgsrc":"",
+            "url":""
+        }
+    ],
+    "contactus":{
+        "contacts": [
+            {
+                "name":"Tony Max",
+                "position": "Business Head",
+                "phone": "7000000007",
+                "countrycode": "91",
+                "email": "tmt@maxmail.com",
+                "imgsrc": "https://dummyimage.com/200x250/034595/fff.png"
+            },
+            {
+                "name":"Tony Max",
+                "position": "Business Head",
+                "phone": "7000000007",
+                "countrycode": "91",
+                "email": "tmt@maxmail.com",
+                "imgsrc": "https://dummyimage.com/200x250/034595/fff.png"
+            },
+            {
+                "name":"Tony Max",
+                "position": "Business Head",
+                "phone": "7000000007",
+                "countrycode": "91",
+                "email": "tmt@maxmail.com",
+                "imgsrc": "https://dummyimage.com/200x250/034595/fff.png"
+            }
+        ],
+        "contactformurl": ""
+    }
+
+}

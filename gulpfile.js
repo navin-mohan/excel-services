@@ -7,7 +7,10 @@
      runSeq = require('run-sequence'),
      browserSync = require('browser-sync'),
      sass = require('gulp-sass'),
-     babel = require('gulp-babel');
+     babel = require('gulp-babel'),
+     nunjucksRender = require('gulp-nunjucks-render'),
+     data = require('gulp-data');
+
 
  gulp.task('images',function(){
      return gulp.src('app/img/**/*.+(jpg|png|gif|svg)')
@@ -52,20 +55,42 @@
 
 gulp.task('watch', ['browserSync', 'sass'], function (){
   gulp.watch('app/scss/**/*.scss', ['sass']); 
+  gulp.watch('app/pages/**/*.+(html|nunjucks)', ['nunjucks']); 
+  gulp.watch('app/templates/**/*.+(html|nunjucks)', ['nunjucks']); 
+  gulp.watch('app/*.json', ['nunjucks']); 
   gulp.watch('app/*.html', browserSync.reload); 
   gulp.watch('app/js/**/*.js', browserSync.reload); 
+});
+
+gulp.task('nunjucks', function() {
+  // Gets .html and .nunjucks files in pages
+  return gulp.src('app/pages/**/*.+(html|nunjucks)')
+  // adding data
+  .pipe(data(function() {
+      return require('./app/data.json')
+    }))
+  // Renders template with nunjucks
+  .pipe(nunjucksRender({
+      path: ['app/templates']
+    }))
+  // output files in app folder
+  .pipe(gulp.dest('app'))
+  .pipe(browserSync.reload({
+         stream: true
+     }));
 });
 
 gulp.task('build',function(callback){
     runSeq('clean:dist',
         'sass',
+        'nunjucks',
         ['useref','images','fonts'],
         callback
     );
 });
 
 gulp.task('default', function (callback) {
-  runSeq(['sass','browserSync', 'watch'],
+  runSeq(['sass','nunjucks','browserSync', 'watch'],
     callback
   );
 });
