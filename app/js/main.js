@@ -1,13 +1,15 @@
 
 $(document).ready(()=>{
-    var toggleMenu = () => {
+    var toggleMenu = (mobile) => {
         $('header > nav').toggleClass('show-menu');
         $('header').toggleClass('show-menu');
-        $('body').toggleClass('no-scroll');
+        if(mobile){
+            $('body').toggleClass('no-scroll');
+        }
         $('div.wrapper').toggleClass('show-menu');
     };
-    $('.menu-btn').click(toggleMenu);
-    $('.menu-btn-link').click(toggleMenu);
+    $('.menu-btn').click(() => toggleMenu(true));
+    $('.menu-btn-link').click(() => toggleMenu($(window).width() < 960));
 
     particlesJS(
         'particle-js',
