@@ -1,7 +1,7 @@
 <div id="cover">
     <div id="particle-js"></div>     
     <div class="cover-figure">
-        <img src="https://cdn2.hubspot.net/hubfs/708436/blog_covers/responsive_web_design_INFOGRAPHIC.png" alt="">
+        <img src="{{siteinfo.image.src}}" alt="{{siteinfo.image.alt}}">
     </div>  
     <div class="row cover-text">
         <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">

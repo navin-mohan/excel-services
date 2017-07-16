@@ -4,7 +4,7 @@
         "tagline": "This is what we do.",
         "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est officia voluptas, non quidem consequuntur",
         "image": {
-            "href": "",
+            "src": "https://cdn2.hubspot.net/hubfs/708436/blog_covers/responsive_web_design_INFOGRAPHIC.png",
             "alt": "some image"
         }
     },
@@ -104,6 +104,29 @@
             }
         ],
         "contactformurl": ""
+    },
+    "footer":{
+        "mainlinks":[
+            {"title":"Link 1","url":"#"},
+            {"title":"Link 2","url":"#"}
+        ],
+        "otherlinks":{
+            "heading": "Other Links",
+            "links":[
+                {"title":"Link 1","url":"#"},
+                {"title":"Link 2","url":"#"},
+                {"title":"Link 3","url":"#"}
+            ]
+        },
+        "sociallinks":[
+            {"url":"#","faicon":"facebook"},
+            {"url":"#","faicon":"twitter"},
+            {"url":"#","faicon":"linkedin"}
+        ],
+        "morelinks":[
+            {"url":"#","title":"Link 1"},
+            {"url":"#","title":"Link 2"}
+        ]
     }
 
 }

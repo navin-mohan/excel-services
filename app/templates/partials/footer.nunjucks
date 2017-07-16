@@ -3,22 +3,23 @@
         <div class="col-lg-3 col-md-6 col-sm-12">
             <h3>&copy; 2017 excel services</h3>
             <ul class="footer-info">
-                <li>
-                    <a href="#">
-                        Privacy Policy
-                    </a>
-                </li>
+                {% for link in footer.mainlinks %}
+                    <li>
+                        <a href="{{link.url}}">
+                            {{link.title}}
+                        </a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
-            <h3>contact</h3>
+            <h3>{{footer.otherlinks.heading}}</h3>
             <ul class="footer-info">
-                <li>
-                        <span>Email:</span> test&#64;test.com
-                </li>
-                <li>
-                        <span>Phone:</span> +91 9034543780
-                </li>
+                {% for link in footer.otherlinks.links %}
+                    <li>
+                        <a href="{{link.url}}">{{link.title}}</a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
@@ -26,20 +27,22 @@
             <ul class="footer-info">
                 <li>
                     <span>FOLLOW US</span> 
-                    <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i> </a>
-                    <a href="#"> <i class="fa fa-twitter" aria-hidden="true"></i> </a>
-                    <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                    {% for sociallink in footer.sociallinks %}
+                        <a href="{{sociallink.url}}"><i class="fa fa-{{sociallink.faicon}}" aria-hidden="true"></i> </a>
+                    {% endfor %}
                 </li>
             </ul>
         </div>
         <div class="col-lg-3 col-md-6 col-sm-12">
             <h3>more</h3>
             <ul class="footer-info">
-                <li>
-                    <a href="#">
-                        About Us
-                    </a>
-                </li>
+                {% for link in footer.morelinks %}
+                    <li>
+                        <a href="{{link.url}}">
+                            {{link.title}}
+                        </a>
+                    </li>
+                {% endfor %}
             </ul>
         </div>
     </div>
