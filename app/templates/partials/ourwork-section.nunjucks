@@ -13,7 +13,7 @@
         {% for work in works %}
             <div class="col-sm-6 col-md-6 col-lg-5 ">
                 <div class="card">
-                    <div class="card-img"></div>
+                    <img class="card-img" src="{{work.imgsrc}}"/>
                     <div class="card-desc">
                         <div class="row">
                             <div class="col-xs-12">
@@ -27,7 +27,7 @@
                                 <h3 class="work-title">
                                     {{work.title}}
                                 </h3>
-                                <i class="arrow-right arrow" aria-hidden="true"></i>
+                                <a href="{{work.url}}"><i class="arrow-right arrow" aria-hidden="true"></i></a>
                             </div>
                             <div class="col-xs-12">
                                 <p class="desc">

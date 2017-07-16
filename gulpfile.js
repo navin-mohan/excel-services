@@ -17,6 +17,11 @@
         .pipe(gulp.dest('dist/img'));
  });
 
+ gulp.task('favicon',function(){
+     return gulp.src('app/favicon.ico')
+        .pipe(gulp.dest('dist'));
+ });
+
 
  gulp.task('browserSync', function() {
     browserSync.init({
@@ -84,7 +89,7 @@ gulp.task('build',function(callback){
     runSeq('clean:dist',
         'sass',
         'nunjucks',
-        ['useref','images','fonts'],
+        ['useref','images','fonts','favicon'],
         callback
     );
 });
