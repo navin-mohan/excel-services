@@ -40,18 +40,21 @@ footer {
         font-size: 20px !important;
         letter-spacing: 4px; }
   footer .logos img {
-    float: left; }
+    margin: auto; }
   footer .logos img.mec-logo {
     height: 84px; }
+  footer .logos img.xl-services {
+    height: 150px;
+    display: none;
+    margin: auto; }
+  @media (min-width: 700px) {
+    footer .logos img.xl-services {
+      display: block; } }
   footer .logos img.excel-logo {
     height: 100px;
     position: relative;
     top: -4px; }
 
-@media (max-width: 1200px) {
+@media (max-width: 700px) {
   footer {
-    padding-left: 40px; } }
-
-@media (max-width: 970px) {
-  footer {
-    height: 560px; } }
+    height: 300px; } }

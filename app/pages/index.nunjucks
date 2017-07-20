@@ -12,7 +12,6 @@
         {% include 'partials/cover-section.nunjucks' %}
         {% include 'partials/aboutus-section.nunjucks' %}
         {% include 'partials/services-section.nunjucks' %}
-        {% include 'partials/ourwork-section.nunjucks' %}
         {% include 'partials/contactus-section.nunjucks' %}
     </div>
 

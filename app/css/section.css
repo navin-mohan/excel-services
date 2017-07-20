@@ -113,6 +113,15 @@ section#contact-us {
 .what-we-do-icon {
   font-size: 70px; }
 
+@media (max-width: 700px) {
+  div.mob-center {
+    margin: 0 -15px; } }
+
+@media (max-width: 1000px) {
+  .mob-head {
+    margin-bottom: 50px;
+    margin-top: 50px; } }
+
 .what-we-do {
   margin-bottom: 30px; }
   .what-we-do h3 {
@@ -129,7 +138,8 @@ section#contact-us {
 
 section#contact-us img.contact-img {
   margin: 0 auto;
-  border-radius: 7px; }
+  border-radius: 7px;
+  width: 90%; }
 
 section#contact-us a.leave-message-btn {
   background-color: #2ecc71;

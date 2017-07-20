@@ -175,6 +175,19 @@ section#contact-us{
     font-size: 70px;
 }
 
+@media(max-width:700px){
+    div.mob-center{
+        margin: 0 -15px;
+    }
+}
+
+@media(max-width:1000px){
+    .mob-head{
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+}
+
 .what-we-do{
     margin-bottom: 30px;
     h3{
@@ -197,6 +210,7 @@ section#contact-us{
     img.contact-img{
         margin: 0 auto;
         border-radius: 7px;
+        width: 90%;
     }
 
     a.leave-message-btn{

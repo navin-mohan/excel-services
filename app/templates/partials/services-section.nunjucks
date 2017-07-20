@@ -1,6 +1,6 @@
 <section id="services">
     <div class="row max-width">
-        <div class="col-sm-12 col-md-12 col-lg-2">
+        <div class="col-sm-12 col-md-12 col-lg-2 mob-head">
             <div class="section-title">
                 <p class="section-label">
                     What

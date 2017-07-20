@@ -11,9 +11,8 @@
     </div>
     <nav>
         <ul>
+            <li><a href="#about-us" class="nav-link menu-btn-link">about us</a></li>            
             <li><a href="#services" class="nav-link menu-btn-link">what we do</a></li>
-            <li><a href="#work" class="nav-link menu-btn-link">our work</a></li>
-            <li><a href="#about-us" class="nav-link menu-btn-link">where to start</a></li>
             <li><a href="#contact-us" class="nav-btn menu-btn-link">contact</a></li>
         </ul>
     </nav>

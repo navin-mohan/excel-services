@@ -1,0 +1,61 @@
+<footer>
+    <div class="row max-width-smaller">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3>&copy; 2017 excel services</h3>
+            <ul class="footer-info">
+                {% for link in footer.mainlinks %}
+                    <li>
+                        <a href="{{link.url}}">
+                            {{link.title}}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3>{{footer.otherlinks.heading}}</h3>
+            <ul class="footer-info">
+                {% for link in footer.otherlinks.links %}
+                    <li>
+                        <a href="{{link.url}}">{{link.title}}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3>social</h3>
+            <ul class="footer-info">
+                <li>
+                    <span>FOLLOW US</span> 
+                    {% for sociallink in footer.sociallinks %}
+                        <a href="{{sociallink.url}}"><i class="fa fa-{{sociallink.faicon}}" aria-hidden="true"></i> </a>
+                    {% endfor %}
+                </li>
+            </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <h3>more</h3>
+            <ul class="footer-info">
+                {% for link in footer.morelinks %}
+                    <li>
+                        <a href="{{link.url}}">
+                            {{link.title}}
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </div>
+    </div>
+    <div class="row max-width-smaller logos">
+        <div class="col-lg-3 col-md-6 col-sm-12">
+            <a href="http://mec.ac.in">
+                <img class="img-responsive mec-logo" src="img/mec-logo-text.png" alt="mec-logo" >
+            </a>
+        </div>
+        <div class="col-lg-3 col-lg-offset-6 col-md-6 col-sm-12">
+            <a href="http://excelmec.org">
+                <img class="img-responsive excel-logo" src="img/excel-logo-text.png" alt="excel-logo">
+            </a>                    
+        </div>
+    </div>
+</footer>
