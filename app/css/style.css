@@ -191,12 +191,6 @@ div#particle-js {
 .hide-mobile {
   display: initial; }
 
-@media (max-width: 700px) {
-  div.wrapper {
-    margin-bottom: 300px; }
-    div.wrapper div.cover-text {
-      margin: 0; } }
-
 @media (max-width: 970px) {
   header {
     padding: 0 20px;
@@ -258,3 +252,9 @@ div#particle-js {
   div.wrapper div.cover-text-container h2,
   div.wrapper div.cover-text-container p {
     padding: 0 10%; } }
+
+@media (max-width: 700px) {
+  div.wrapper {
+    margin-bottom: 300px; }
+    div.wrapper div.cover-text {
+      margin: 0; } }
