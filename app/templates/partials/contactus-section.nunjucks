@@ -10,7 +10,7 @@
             </div>
         </div>
         {% for contact in contactus.contacts %}
-            <div class="col-lg-2 col-md-4  col-xs-12">
+            <div class="col-lg-2 col-md-3 col-sm-6  col-xs-12">
                 <div class="row what-we-do">
                     <div class="col-xs-12">
                         <img src="{{contact.imgsrc}}" alt="{{contact.name}}" class="img-responsive contact-img">

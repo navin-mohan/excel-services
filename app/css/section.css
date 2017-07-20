@@ -117,7 +117,7 @@ section#contact-us {
   div.mob-center {
     margin: 0 -15px; } }
 
-@media (max-width: 1000px) {
+@media (max-width: 1500px) {
   .mob-head {
     margin-bottom: 50px;
     margin-top: 50px; } }
@@ -127,7 +127,7 @@ section#contact-us {
   .what-we-do h3 {
     font-family: 'Raleway' , sans-serif;
     font-weight: 600;
-    font-size: 27px;
+    font-size: 23px;
     line-height: 1.4; }
   .what-we-do p {
     font-family: 'Open Sans' ,sans-serif;
