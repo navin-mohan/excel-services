@@ -4,7 +4,7 @@
         <img src="{{siteinfo.image.src}}" alt="{{siteinfo.image.alt}}">
     </div>  
     <div class="row cover-text">
-        <div class="col-xs-12 col-sm-5 col-md-4 col-lg-4">
+        <div class="col-xs-12 col-sm-12 col-md-4 col-lg-4">
             <div class="cover-text-container">
                 <h2>
                 {{siteinfo.tagline}}

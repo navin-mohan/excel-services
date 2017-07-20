@@ -64,7 +64,7 @@
        letter-spacing: 1px;
        
        img.services-logo{
-            height: 120px;
+            height: 90px;
             transition: height 0.5s,width 0.5s linear;       
        }
        
@@ -232,8 +232,17 @@
         display: initial;
     }
 
-   @media (max-width: 970px){
+    @media(max-width:700px){
+        div.wrapper{
+           margin-bottom: 300px;
+        div.cover-text{
+            margin: 0;
+        }
+       }
+    }
 
+   @media (max-width: 970px){
+    
 
        header{
            padding: 0 20px;
@@ -250,7 +259,7 @@
                color: #000;
 
                 img.services-logo{
-                    height: 75px;
+                    height: 50px;
                 }
                
            }
@@ -314,13 +323,18 @@
        div.wrapper{
            margin-bottom: 300px;
            div.cover-figure{
-               display: none;
+               width: 100%;
+               opacity: 0.2;
+               right: unset;
+                img{
+                    height: unset;
+                    width: 100%;
+                }
            }
        }
 
        div.wrapper {
            div.cover-text {
-               margin-right: 10px; 
                h2{
                     font-size: 45px;
                 }
@@ -333,4 +347,8 @@
        }
 
 
+   }
+
+   @media(min-width:700px) and ( max-width: 970px){
+       
    }

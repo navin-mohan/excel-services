@@ -82,7 +82,7 @@ h1#brand {
   transition: all 0.3s;
   letter-spacing: 1px; }
   h1#brand img.services-logo {
-    height: 120px;
+    height: 90px;
     transition: height 0.5s,width 0.5s linear; }
   h1#brand span.services-logo-text {
     position: relative;
@@ -191,6 +191,12 @@ div#particle-js {
 .hide-mobile {
   display: initial; }
 
+@media (max-width: 700px) {
+  div.wrapper {
+    margin-bottom: 300px; }
+    div.wrapper div.cover-text {
+      margin: 0; } }
+
 @media (max-width: 970px) {
   header {
     padding: 0 20px;
@@ -205,7 +211,7 @@ div#particle-js {
       font-size: 20px;
       color: #000; }
       header h1#brand img.services-logo {
-        height: 75px; }
+        height: 50px; }
   header.sticky h1#brand span.services-logo-text {
     visibility: hidden; }
   nav.show-menu {
@@ -241,11 +247,14 @@ div#particle-js {
   div.wrapper {
     margin-bottom: 300px; }
     div.wrapper div.cover-figure {
-      display: none; }
-  div.wrapper div.cover-text {
-    margin-right: 10px; }
-    div.wrapper div.cover-text h2 {
-      font-size: 45px; }
+      width: 100%;
+      opacity: 0.2;
+      right: unset; }
+      div.wrapper div.cover-figure img {
+        height: unset;
+        width: 100%; }
+  div.wrapper div.cover-text h2 {
+    font-size: 45px; }
   div.wrapper div.cover-text-container h2,
   div.wrapper div.cover-text-container p {
     padding: 0 10%; } }
