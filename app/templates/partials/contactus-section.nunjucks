@@ -10,7 +10,7 @@
             </div>
         </div>
         {% for contact in contactus.contacts %}
-            <div class="col-lg-2 col-md-3 col-sm-6  col-xs-12">
+            <div class="col-lg-2 col-md-6 col-sm-6  col-xs-12">
                 <div class="row what-we-do">
                     <div class="col-xs-12">
                         <img src="{{contact.imgsrc}}" alt="{{contact.name}}" class="img-responsive contact-img">
@@ -20,7 +20,7 @@
                         <h5 class="text-center">{{contact.position}}</h5>
                     </div>
                     <div class="col-xs-12">
-                        <h4 class="text-center"><a href="mailto:{{contact.email}}">{{contact.email}}</a></h4>
+                        <h5 class="text-center"><a href="mailto:{{contact.email}}">{{contact.email}}</a></h5>
                         <h4 class="text-center"><a href="tel:{{contact.countrycode}}{{contact.phone}}">+{{contact.countrycode}} {{contact.phone}}</a></h4>
                     </div>
                 </div>

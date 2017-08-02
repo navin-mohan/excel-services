@@ -1,140 +1,199 @@
 {
-    "siteinfo":{
-        "title": "Excel Services",
-        "tagline": "This is what we do.",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est officia voluptas, non quidem consequuntur",
-        "image": {
-            "src": "https://cdn2.hubspot.net/hubfs/708436/blog_covers/responsive_web_design_INFOGRAPHIC.png",
-            "alt": "some image"
-        }
-    },
-    "aboutus":{
-        "title": "About Us",
-        "description": "Excel Services is a new venture by the students of Govt. Model Engineering College, Kochi, with the aim of bolstering hands on experience and corporate exposure. Started as a part of Excel 2017, the annual national-level techno managerial fest of the college, Excel Services will use the combined brainpower and creativity of 400+ students across all years of study and provide a complete package for companies to solve any creative or technical roadblocks being faced in their ongoing projects. Companies, with a project on hand (preferably technical), can approach Excel Services at any point of time in the year. After evaluating the skill set requirement for its successful completion, the project will be handed over to a team with those specific skills. Students work on it alongside academics and execute it within a specified time, ensuring quality and timely completion."
-    },
-    "services":[
-        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":false },
-        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":false },
-        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":true },
-        { "title":"Mobile Development", "description":"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil", "faicon": "database","offset":false }
-    ],
-    "works":[
-        {
-            "tags":[
-                "UI/UX", "Android", "material design"
-            ],
-            "title": "Awesome App",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
-            "teammembers":[
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
-            ],
-            "imgsrc":"https://dummyimage.com/453x385/2363a3/fff.png",
-            "url":"#"
-        },
-        {
-            "tags":[
-                "UI/UX", "Android", "material design"
-            ],
-            "title": "Awesome App",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
-            "teammembers":[
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
-            ],
-            "imgsrc":"https://dummyimage.com/453x385/2363a3/fff.png",
-            "url":"#"
-        },
-        {
-            "tags":[
-                "UI/UX", "Android", "material design"
-            ],
-            "title": "Awesome App",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
-            "teammembers":[
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
-            ],
-            "imgsrc":"https://dummyimage.com/453x385/2363a3/fff.png",
-            "url":"#"
-        },
-        {
-            "tags":[
-                "UI/UX", "Android", "material design"
-            ],
-            "title": "Awesome App",
-            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
-            "teammembers":[
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"},
-                {"name":"name","imgsrc":"https://dummyimage.com/50x50/09b59b/fff.png","url":"#"}
-            ],
-            "imgsrc":"https://dummyimage.com/453x385/2363a3/fff.png",
-            "url":"#"
-        }
-    ],
-    "contactus":{
-        "contacts": [
-            {
-                "name":"C A Anand Shankar",
-                "position": "Industry connect manager",
-                "phone": "12345678",
-                "countrycode": "91",
-                "email": "tmt@maxmail.com",
-                "imgsrc": "img/anand.jpg"
-            },
-            {
-                "name":"Shreya K Lakshmanan",
-                "position": "Excel Services coordinator",
-                "phone": "7000000007",
-                "countrycode": "91",
-                "email": "tmt@maxmail.com",
-                "imgsrc": "img/shreya.jpg"
-            },
-            {
-                "name":"Sharon Rachel Manu",
-                "position": "Joint Secretary, Excel 2017",
-                "phone": "9633554696",
-                "countrycode": "91",
-                "email": "tmt@maxmail.com",
-                "imgsrc": "img/shan.jpg"
-            },
-            {
-                "name":"Arjun Saju",
-                "position": "Chairman, Excel 2017",
-                "phone": "8943239997",
-                "countrycode": "91",
-                "email": "tmt@maxmail.com",
-                "imgsrc": "img/saju.jpg"
-            }
-        ],
-        "contactformurl": ""
-    },
-    "footer":{
-        "mainlinks":[
-            {"title":"Link 1","url":"#"},
-            {"title":"Link 2","url":"#"}
-        ],
-        "otherlinks":{
-            "heading": "Other Links",
-            "links":[
-                {"title":"Link 1","url":"#"},
-                {"title":"Link 2","url":"#"},
-                {"title":"Link 3","url":"#"}
-            ]
-        },
-        "sociallinks":[
-            {"url":"#","faicon":"facebook"},
-            {"url":"#","faicon":"twitter"},
-            {"url":"#","faicon":"linkedin"}
-        ],
-        "morelinks":[
-            {"url":"#","title":"Link 1"},
-            {"url":"#","title":"Link 2"}
-        ]
-    }
-
+	"siteinfo": {
+		"title": "Excel Services",
+		"tagline": "What we do.",
+		"description": "We provide professional customized solutions in web designing and software development. We work with a wide range of clients in our endeavor to provide them cost effective and profitable solutions.",
+		"image": {
+			"src": "https://cdn2.hubspot.net/hubfs/708436/blog_covers/responsive_web_design_INFOGRAPHIC.png",
+			"alt": "some image"
+		}
+	},
+	"aboutus": {
+		"title": "About Us",
+		"description": "Excel Services is a new venture by the students of Govt. Model Engineering College, Kochi, with the aim of bolstering hands on experience and corporate exposure. Started as a part of Excel 2017, the annual national-level techno managerial fest of the college, Excel Services will use the combined brainpower and creativity of 400+ students across all years of study and provide a complete package for companies to solve any creative or technical roadblocks being faced in their ongoing projects. Companies, with a project on hand (preferably technical), can approach Excel Services at any point of time in the year. After evaluating the skill set requirement for its successful completion, the project will be handed over to a team with those specific skills. Students work on it alongside academics and execute it within a specified time, ensuring quality and timely completion."
+	},
+	"services": [
+		{
+			"title": "Mobile Development",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil",
+			"faicon": "mobile",
+			"offset": false
+		},
+		{
+			"title": " Application Specific Software Development",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil",
+			"faicon": "desktop",
+			"offset": false
+		},
+		{
+			"title": "Website Development",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil",
+			"faicon": "code",
+			"offset": true
+		},
+		{
+			"title": "Content Development",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam aut accusantium repudiandae modi eveniet animi rerum et. Eius excepturi nihil",
+			"faicon": "pencil",
+			"offset": false
+		}
+	],
+	"works": [
+		{
+			"tags": ["UI/UX", "Android", "material design"],
+			"title": "Awesome App",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+			"teammembers": [
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				}
+			],
+			"imgsrc": "https://dummyimage.com/453x385/2363a3/fff.png",
+			"url": "#"
+		},
+		{
+			"tags": ["UI/UX", "Android", "material design"],
+			"title": "Awesome App",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+			"teammembers": [
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				}
+			],
+			"imgsrc": "https://dummyimage.com/453x385/2363a3/fff.png",
+			"url": "#"
+		},
+		{
+			"tags": ["UI/UX", "Android", "material design"],
+			"title": "Awesome App",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+			"teammembers": [
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				}
+			],
+			"imgsrc": "https://dummyimage.com/453x385/2363a3/fff.png",
+			"url": "#"
+		},
+		{
+			"tags": ["UI/UX", "Android", "material design"],
+			"title": "Awesome App",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta aspernatur laudantium modi impedit expedita perferendis ad rerum, laborum accusamus dolores.",
+			"teammembers": [
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				},
+				{
+					"name": "name",
+					"imgsrc": "https://dummyimage.com/50x50/09b59b/fff.png",
+					"url": "#"
+				}
+			],
+			"imgsrc": "https://dummyimage.com/453x385/2363a3/fff.png",
+			"url": "#"
+		}
+	],
+	"contactus": {
+		"contacts": [
+			{
+				"name": "C A Anand Shankar",
+				"position": "Industry Connect Manager",
+				"phone": "7907238561",
+				"countrycode": "91",
+				"email": "caanandshankar@excelmec.org",
+				"imgsrc": "img/anand.jpg"
+			},
+			{
+				"name": "Asif Ali",
+				"position": "Excel Services Coordinator",
+				"phone": "7907717505",
+				"countrycode": "91",
+				"email": "asifali@mec.ac.in",
+				"imgsrc": "img/asif.jpg"
+			},
+			{
+				"name": "Sharon Rachel Manu",
+				"position": "Joint Secretary, Excel 2017",
+				"phone": "9633554696",
+				"countrycode": "91",
+				"email": "sharonrachelmanu@excelmec.org",
+				"imgsrc": "img/shan.jpg"
+			},
+			{
+				"name": "Arjun Saju",
+				"position": "Chairman, Excel 2017",
+				"phone": "8943239997",
+				"countrycode": "91",
+				"email": "arjunsaju@excelmec.org",
+				"imgsrc": "img/saju.jpg"
+			}
+		],
+		"contactformurl": "https://goo.gl/forms/abBZa3ZBqY9hfK9u1"
+	},
+	"footer": {
+		"mainlinks": [
+			{ "title": "Link 1", "url": "#" },
+			{ "title": "Link 2", "url": "#" }
+		],
+		"otherlinks": {
+			"heading": "Other Links",
+			"links": [
+				{ "title": "Link 1", "url": "#" },
+				{ "title": "Link 2", "url": "#" },
+				{ "title": "Link 3", "url": "#" }
+			]
+		},
+		"sociallinks": [
+			{ "url": "#", "faicon": "facebook" },
+			{ "url": "#", "faicon": "twitter" },
+			{ "url": "#", "faicon": "linkedin" }
+		],
+		"morelinks": [
+			{ "url": "#", "title": "Link 1" },
+			{ "url": "#", "title": "Link 2" }
+		]
+	}
 }
